@@ -6,7 +6,7 @@ angular.module('starter', ['ionic',
   'angular-jwt',
   'firebase'])
 
-.config(function($stateProvider, $urlRouterProvider, authProvider, $httpProvider,
+.config(function($stateProvider, $urlRouterProvider, authProvider,
   jwtInterceptorProvider, $ionicConfigProvider) {
 
 
@@ -29,7 +29,7 @@ angular.module('starter', ['ionic',
 
 })
 
-.run(function($ionicPlatform, $rootScope, auth, store, jwtHelper, $location) {
+.run(function($ionicPlatform, $rootScope, auth, store, jwtHelper) {
 
   $ionicPlatform.ready(function () {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard

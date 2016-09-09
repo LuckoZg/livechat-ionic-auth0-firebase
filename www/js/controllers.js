@@ -8,7 +8,7 @@ angular.module('starter.controllers', [])
     
 })
 
-.controller('ChatController', function ($scope, $state, $stateParams, $ionicPopup, auth, store, Messages, $timeout) {
+.controller('ChatController', function ($scope, $state, $ionicPopup, auth, store, Messages) {
     console.log("ChatController");
 
     $scope.start = function(){
